@@ -49,11 +49,12 @@ public class Radnik implements Comparable<Radnik>{
 
 	@Override
 	public String toString() {
-		return "Radnik [imeIPrezime=" + imeIPrezime + ", zanimanje=" + zanimanje + ", plata=" + plata + ", brojRacuna="
-				+ brojRacuna + "]";
+		return "Radnik: imeIPrezime=" + imeIPrezime + ", zanimanje=" + zanimanje + ", plata=" + plata + ", brojRacuna="
+				+ brojRacuna;
 	}
 	
 	// Napravi metodu sortiranja po broju racuna
+	// Ovo je uradjeno
 
 	@Override
 	public int compareTo(Radnik o) {
